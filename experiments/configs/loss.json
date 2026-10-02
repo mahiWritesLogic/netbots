@@ -1,0 +1,4 @@
+{"name": "loss",
+ "seeds": [1, 2, 3, 4, 5],
+ "base": {"n": 3, "duration": 60, "mode": "trace", "policy": "periodic", "rateHz": 10, "delayMs": 0.1, "jitterMs": 0, "loss": 0, "bgKbps": 0, "linkMbps": 2, "queuePkts": 100},
+ "sweep": {"param": "loss", "values": [0, 0.1, 0.2, 0.4, 0.6, 0.8]}}

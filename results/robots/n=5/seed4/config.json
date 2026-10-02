@@ -1,0 +1,19 @@
+{
+ "n": 5,
+ "duration": 60,
+ "mode": "trace",
+ "policy": "periodic",
+ "rateHz": 10,
+ "offsetMs": 10.0,
+ "delayMs": 0.1,
+ "jitterMs": 0,
+ "loss": 0,
+ "bgKbps": 0,
+ "linkMbps": 2,
+ "queuePkts": 100,
+ "maxAgeMs": 1000.0,
+ "eventDist": 0.1,
+ "eventAngleDeg": 10.0,
+ "heartbeatMs": 1000.0,
+ "seed": 4
+}

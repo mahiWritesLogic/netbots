@@ -1,0 +1,4 @@
+{"name": "jitter",
+ "seeds": [1, 2, 3, 4, 5],
+ "base": {"n": 3, "duration": 60, "mode": "trace", "policy": "periodic", "rateHz": 10, "delayMs": 0.1, "jitterMs": 0, "loss": 0, "bgKbps": 0, "linkMbps": 2, "queuePkts": 100},
+ "sweep": {"param": "jitterMs", "values": [0, 25, 50, 100, 200, 400]}}
